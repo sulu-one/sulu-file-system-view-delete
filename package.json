@@ -1,15 +1,15 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "del" , 
-        "function" : "moveToTrash"
+        "key": "del",
+        "function": "moveToTrash"
       }
     ]
-  },  
+  },
   "name": "sulu-file-system-view-delete",
   "description": "SULU delete methods",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
