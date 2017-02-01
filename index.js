@@ -27,7 +27,6 @@ Command.prototype.moveToTrash = function moveToTrash() {
 
 var Plugin = function (client) {
 	this.command = new Command(); 
-	client.app.registerHotKey("del", this.command.moveToTrash);
 };
 
 module.exports = Plugin;

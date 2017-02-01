@@ -1,5 +1,12 @@
 {
-  "suluPackage": true,
+  "suluPackage": {
+    "hotkeys" : [
+      {
+        "key" : "del" , 
+        "function" : "moveToTrash"
+      }
+    ]
+  },  
   "name": "sulu-file-system-view-delete",
   "description": "SULU delete methods",
   "version": "1.0.2",
